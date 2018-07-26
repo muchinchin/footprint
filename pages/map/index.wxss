@@ -1,0 +1,59 @@
+/**index.wxss**/
+
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ec-canvas {
+  width: 750rpx;
+  height: 650rpx;
+}
+
+.username{
+  font-size: 52rpx;
+  margin-top: 40rpx;
+  margin-bottom: 10rpx;
+  color: rgb(249, 195, 33);
+}
+
+.content{
+  color: rgb(155, 164, 176);
+  font-size: 38rpx;
+  margin-bottom: 10rpx;
+}
+
+.content text{
+  color: rgb(249, 195, 33);
+  font-size: 52rpx;
+}
+
+.city_list{
+  color: #222;
+  font-size: 20rpx;
+  width: calc(100% - 40rpx);
+  display: flex;
+  flex-direction: row;
+  padding-left: 40rpx;
+}
+
+.city_list text{
+    margin: 6rpx 6rpx;
+    text-align: left;
+}
+
+.save_btn{
+  height: 80rpx;
+  width: 280rpx;
+  color: #fff;
+  font-size: 30rpx;
+  border-radius: 40rpx;
+  background-color: #333;
+  position: fixed;
+  bottom: 100rpx;
+  margin-left: calc(470rpx/2);
+}

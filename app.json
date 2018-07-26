@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/index",
+    "pages/province/index"
+  ],
+  "window":{
+    "navigationBarTextStyle": "light",
+    "navigationBarTitleText": "仿脚步地图",
+    "navigationBarBackgroundColor":"#2c3144"
+  }
+}

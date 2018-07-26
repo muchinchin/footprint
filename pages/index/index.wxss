@@ -1,0 +1,44 @@
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.context {
+  color: white;
+  font-size: 40rpx;
+  margin-top: 60rpx;
+  text-align: center;
+  margin-bottom: 40rpx;
+}
+
+.context view{
+  margin-bottom: 20rpx;
+}
+
+.context text{
+  color: rgb(249, 195, 33);
+  font-size: 52rpx;
+}
+
+.map {
+  width: 710rpx;
+  height: 524rpx;
+  margin-left: 20rpx;
+}
+
+.start {
+  border-radius: 40rpx;
+  height: 80rpx;
+  width: 280rpx;
+  color: #fff;
+  background-color: rgb(38, 37, 35);
+  font-size: 32rpx;
+  line-height: 80rpx;
+  position: fixed;
+  bottom: 160rpx;
+  margin-left: calc(470rpx/2);
+}

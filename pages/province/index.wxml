@@ -1,0 +1,21 @@
+<!--index.wxml-->
+
+<!-- <image src='../images/homepage_bg.png' class='bg_image'></image>   -->
+
+<view class='content'>
+
+  <scroll-view class='left' scroll-y='true'>
+    <view class='province {{province.selected?"selected":""}}' wx:for='{{raw}}' wx:for-item="province" bindtap='selectProvince' data-index='{{index}}'>
+      {{province.name}}
+      <view class='badge' wx:if='{{selectItem[index]}}'>{{selectItem[index]}}</view>
+    </view>
+  </scroll-view>
+  <view class='right'>
+    <view class='city {{item.selected?"selected":""}}' wx:for='{{raw[selectIndex].sub}}' data-index='{{index}}' bindtap='selectCity'>
+      {{item.name}}
+    </view>
+    <button class='submit' disabled='{{btnDisable}}' bindtap='submitCity'>提交</button>
+  </view>
+
+
+</view>

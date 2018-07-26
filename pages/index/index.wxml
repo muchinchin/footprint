@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<!-- <image src='../images/homepage_bg.png' class='bg_image'></image> -->
+<view class='content'>
+  <view class='context'>
+    <view>中国<text> 34 </text>个省区，<text> 661 </text>个城市</view>
+    <view>你去过多少？</view>
+  </view>
+  <image src='../images/china-map.png' class='map'></image>
+  <button class='start' bindtap='goToProvince'>开始</button>
+</view>
